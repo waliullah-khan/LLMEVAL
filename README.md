@@ -63,14 +63,14 @@ Example JSON structure:
     "content": "What is the salary range for this position?",
     "sender": "candidate",
     "intent": "candidateAssist",
-    "botThreadId": {"$oid": "67aa6a9ce530e06dde29be18"},
+    "botThreadId": {"$oid": "-----------------------"},
     "createdAt": {"$date": "2025-02-10T21:07:40.313Z"}
   },
   {
     "content": "The salary range for this position is $75,000-$95,000 depending on experience.",
     "sender": "bot",
     "intent": "candidateAssist",
-    "botThreadId": {"$oid": "67aa6a9ce530e06dde29be18"},
+    "botThreadId": {"$oid": "----------------------"},
     "createdAt": {"$date": "2025-02-10T21:07:45.123Z"}
   }
 ]
